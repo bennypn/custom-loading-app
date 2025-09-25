@@ -1,0 +1,75 @@
+/* GrapesJS Editor Styles */
+@import 'grapesjs/dist/css/grapes.min.css';
+
+/* Custom Builder Styles */
+.gjs-frame {
+    border-radius: 8px;
+}
+
+.gjs-cv-canvas {
+    background: white;
+}
+
+.gjs-blocks-c {
+    background: #f9fafb;
+}
+
+.gjs-block {
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.gjs-block:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+}
+
+.gjs-pn-panel {
+    background: white;
+    border-radius: 8px;
+}
+
+.gjs-sm-sector {
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+/* Custom component styles */
+.report-table {
+    font-family: Arial, sans-serif;
+}
+
+.report-header {
+    font-family: Arial, sans-serif;
+}
+
+/* Builder interface improvements */
+.builder-sidebar {
+    background: white;
+    border-left: 1px solid #e5e7eb;
+    box-shadow: -2px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.builder-panel {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.builder-button {
+    padding: 8px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.builder-button:hover {
+    background: #f3f4f6;
+    transform: translateY(-1px);
+}
